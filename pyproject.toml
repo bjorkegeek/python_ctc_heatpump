@@ -4,3 +4,22 @@ requires = [
     "wheel"
 ]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "ctc_heatpump"
+version = "1.0.0"
+authors = [
+  { name="David Björkevik", email="david@bjorkevik.se" },
+]
+description = "Python module for communicating with CTC heat pump by pretending to be a GSM modem"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/bjorkegeek/python_ctc_heatpump"
